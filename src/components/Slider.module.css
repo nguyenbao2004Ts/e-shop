@@ -1,0 +1,13 @@
+
+.sliderContainer {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    z-index: 1;
+}
+
+.sliderImage {
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 50px;
+}

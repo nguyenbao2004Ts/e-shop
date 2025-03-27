@@ -1,0 +1,105 @@
+/* Shop.module.css */
+.container {
+  margin: 0 auto;
+  width: 85%;
+  border: #cacaca solid 1px;
+}
+
+.row {
+  display: flex;
+}
+
+.left {
+  width: 15%;
+  font-size: 1.2rem;
+  margin-top: 25px;
+}
+
+.right {
+  width: 85%;
+  font-size: 1.2rem;
+  margin-top: 25px;
+}
+
+.rightFull {
+  width: 100%;
+  font-size: 1.2rem;
+  margin-top: 25px;
+}
+
+.cat {
+  text-align: left;
+  border: 1px solid #1b32a5;
+  padding: 10px 15px;
+}
+
+.cat:hover {
+  background-color: #1c2554;
+  color: white;
+  font-size: 16pt;
+  cursor: pointer;
+}
+
+.boxes {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product {
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
+  justify-content: space-between; /* Giữ các nút ở dưới cùng */
+}
+
+.product img {
+  transition: transform 0.2s ease; /* Thêm hiệu ứng chuyển đổi mượt mà */
+}
+
+.product:hover img {
+  transform: scale(1.1); /* Phóng to hình ảnh lên 110% khi di chuột */
+}
+
+.prodimg {
+  width: 100%;
+}
+
+.product button {
+  color: blue;
+  background-color: antiquewhite;
+  padding: 5px 10px;
+}
+
+.datontai {
+  color: orangered;
+  font-style: italic;
+}
+.productButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto; /* Đẩy các nút xuống dưới cùng */
+}
+.product h3 {
+  margin: 0 0 10px 0; /* Thêm khoảng cách giữa các tiêu đề */
+}
+.product h4 {
+  margin: 0 0 10px 0; /* Thêm khoảng cách giữa giá và các nút */
+  margin-top: auto; /* Đẩy giá xuống gần các nút */
+}
+.notification {
+  background-color: #4caf50; /* Màu nền xanh lá cây */
+  color: white; /* Màu chữ trắng */
+  padding: 10px; /* Khoảng cách trong */
+  margin: 10px 0; /* Khoảng cách ngoài */
+  border-radius: 5px; /* Bo góc */
+  text-align: center; /* Canh giữa văn bản */
+  position: fixed; /* Vị trí cố định */
+  top: 10px; /* Cách đỉnh trang 10px */
+  left: 50%; /* Cách trái 50% */
+  transform: translateX(-50%); /* Dịch chuyển vị trí để canh giữa */
+  z-index: 1000; /* Đảm bảo thông báo nằm trên các phần tử khác */
+}

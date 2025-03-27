@@ -1,0 +1,137 @@
+/* Header.module.css */
+
+.logo {
+  text-align: left;
+  color: rgb(232, 241, 244);
+  font-weight: 700;
+  margin: 10px 5px 0 20px;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+
+.image img {
+  margin: 8px 0 0 24px;
+  width: 50px;
+  height: 50px;
+}
+.row {
+  display: flex;
+  margin: -1px auto;
+  background-color: rgb(182, 144, 230);
+  position: fixed;
+  width: 85%;
+  height: 70px;
+  z-index: 1;
+}
+.logo_giadinh{
+  margin: 28px 140px 0 0;
+}
+.search {
+  flex-grow: 2;
+  margin: 18px 10px 16px 6px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+}
+
+.cart {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.cart i {
+  font-size: 22pt;
+  margin-top: 20px;
+}
+
+.cartamount sup {
+  text-align: right;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 0 5px;
+  position: relative;
+  top: -5px;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-grow: 2;
+  margin: 18px 10px 16px 6px;
+}
+
+.search {
+  flex-grow: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.searchButton {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 0 5px 5px 0;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
+
+.searchHistory {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.historyHeader {
+  background-color: #f0f0f0;
+  padding: 8px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
+.historyItem {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.historyItem:hover {
+  background-color: #f5f5f5;
+}
+
+.clearHistory {
+  color: #007bff;
+  cursor: pointer;
+  float: right;
+  font-size: 0.9em;
+  margin-right: 8px;
+}
+
+.clearHistory:hover {
+  text-decoration: underline;
+}
+.loginButton {
+  padding: 10px 20px; /* Thay đổi kích thước padding */
+  font-size: 16px; /* Thay đổi kích thước font */
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(182, 144, 230); /* Màu nền */
+  color: white; /* Màu chữ */
+  cursor: pointer;
+  margin-left: 20px; /* Căn lề nếu cần */
+}
+
+.loginButton:hover {
+  background-color: #0056b3; /* Màu nền khi hover */
+}
